@@ -1,0 +1,20 @@
+{
+  "name": "my-first-backend",
+  "version": "1.0.0",
+  "description": "A backend for an application",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
